@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="Asunto de la alarma:"
-        android:textSize="35sp"
+        android:textSize="34sp"
         android:textColor="#ffd700"
         android:layout_marginTop="100dp"/>
     <EditText
