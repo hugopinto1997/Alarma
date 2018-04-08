@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hugopinto.alarma.MainActivity"
+    android:orientation="vertical"
+    android:background="#1a237e">
+
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:headerBackground="#1a237e"
+        android:layout_marginTop="100dp"
+        android:scaleY="1.5"
+        android:scaleX="1.5"
+        android:numbersSelectorColor="#006784"
+        android:numbersTextColor="#ffd700"
+        android:numbersInnerTextColor="#ffd700"
+        android:numbersBackgroundColor="#20144c"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Asunto de la alarma:"
+        android:textSize="35sp"
+        android:textColor="#ffd700"
+        android:layout_marginTop="100dp"/>
+    <EditText
+        android:id="@+id/text1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:textColor="#ffd700"
+        android:textAlignment="center"
+        android:hint="Ingrese el asunto"
+        android:textColorHint="#ffffff"
+        android:fontFamily="sans-serif"
+        android:background="#20144c"/>
+
+    <Button
+        android:background="#ffd700"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnalarm"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:textSize="25sp"
+        android:text="Programar alarma"/>
+
+</LinearLayout>
